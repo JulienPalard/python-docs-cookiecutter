@@ -15,5 +15,5 @@ IETF language code, lowercased, with dashes. like "pt-br", "fr", "ja",
     $ cd python-docs-de
     $ make merge
     $ git init
-    $ git add */*.po */*.po README.rst Makefile
+    $ git add *.po */*.po README.rst Makefile
     $ git commit -m "Initial commit"
