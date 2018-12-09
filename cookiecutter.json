@@ -1,0 +1,4 @@
+{
+    "language": "fr",
+    "directory_name": "python-docs-{{cookiecutter.language}}"
+}
