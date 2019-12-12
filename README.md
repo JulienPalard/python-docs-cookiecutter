@@ -7,7 +7,7 @@ IETF language code, lowercased, with dashes. like "pt-br", "fr", "ja",
 "zh-cn", and so on.
 
     $ git clone https://github.com/python/cpython.git
-    $ (cd cpython; git checkout 3.7)
+    $ (cd cpython; git checkout 3.8)
     $ pip install cookiecutter
     $ cookiecutter https://github.com/JulienPalard/python-docs-cookiecutter
     language [fr]: de
