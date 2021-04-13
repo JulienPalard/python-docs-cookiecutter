@@ -13,7 +13,9 @@ IETF language code, lowercased, with dashes. like "pt-br", "fr", "ja",
     language [fr]: de
     directory_name [python-docs-de]:
     $ cd python-docs-de
-    $ make merge
     $ git init
-    $ git add *.po */*.po README.rst Makefile
+    $ git switch -c 3.9
+    $ git add README.rst Makefile
     $ git commit -m "Initial commit"
+    $ make merge
+    $ git add *.po */*.po
