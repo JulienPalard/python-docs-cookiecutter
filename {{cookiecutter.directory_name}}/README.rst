@@ -1,7 +1,7 @@
 Translation of the Python Documentation — {{cookiecutter.language}}
 {% for _ in "Translation of the Python Documentation — " %}={% endfor %}{% for _ in cookiecutter.language %}={% endfor %}
 
-.. image:: https://travis-ci.org/python/python-docs-{{cookiecutter.language}}.svg?branch=3.7
+.. image:: https://travis-ci.org/python/python-docs-{{cookiecutter.language}}.svg?branch=3.11
   :target: https://travis-ci.org/python/python-docs-{{cookiecutter.language}}
 
 
@@ -74,8 +74,8 @@ Step by step:
     git remote add upstream https://github.com/python/python-docs-{{cookiecutter.language}}.git
 
 All the translations must be made on the latest release.
-We never translate on an oldest version, by example, the latest python release
-is python 3.7, we don't want to translate directly on the python 3.5 release.
+We never translate on an oldest version, by example, the latest Python release
+is Python 3.11, we don't want to translate directly on the Python 3.5 release.
 If needed translations would be backported on the oldest versions by the
 `documentation team <https://www.python.org/dev/peps/pep-8015/#documentation-team>`_.
 
@@ -84,10 +84,10 @@ Now you're ready to start a work session, each time you'll start a new task, sta
 .. code-block:: bash
 
     # To work, we'll need a branch, based on an up-to-date (freshly fetched)
-    # upstream/3.7 branch, let's say we'll work on glossary so we name
+    # upstream/3.11 branch, let's say we'll work on glossary so we name
     # the branch "glossary":
     git fetch upstream
-    git checkout -b glossary upstream/3.7
+    git checkout -b glossary upstream/3.11
 
     # You can now work on the file, typically using poedit,
     poedit directory/file.po
